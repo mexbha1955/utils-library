@@ -1,0 +1,33 @@
+{
+    "name": "@mex-bha/utils-library",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/es5/index.js",
+    "module": "lib/es6/index.js",
+    "sideEffects": false,
+    "scripts": {
+      "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json",
+      "parcel" : "parcel index.html"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mexbha1955/utils.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mexbha1955/utils/issues"
+    },
+    "homepage": "https://github.com/mexbha1955/utils#readme",
+    "keywords": [
+      "Test",
+      "typescript"
+    ],
+    "files": [
+      "lib",
+      "CHANGELOG.md",
+      "LICENSE",
+      "Package.json",
+      "README.md"
+    ],
+    "author": "mex-bha academy <mex.bha1955@gmail.com>",
+    "license": "MIT"
+  }

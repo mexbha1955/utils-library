@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "lib": ["ES2023", "DOM" ],
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "declaration": true,
+      "outDir": "./dist/lib/es5"
+    },
+    "include": ["src/**/*"]
+  }

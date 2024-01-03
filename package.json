@@ -1,0 +1,18 @@
+{
+  "name": "@mex-bha/utils-library",
+  "version": "1.0.0",
+  "description": "A demo library to run JavaScript (TypeScript) code in Frontend and Backend",
+  "scripts": {
+    "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mexbha1955/utils.git"
+  },
+  "keywords": [],
+  "author": "mex-bha academy <mex.bha1955@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

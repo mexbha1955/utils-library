@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "lib": ["ES2023", "DOM" ],
+      "module": "ES6",
+      "moduleResolution": "node",
+      "declaration": true,
+      "outDir": "./dist/lib/es6"
+    },
+    "include": ["src/**/*"]
+  }
